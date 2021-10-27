@@ -3,3 +3,5 @@ sudo pacman -S xorg-server xorg-xinit xorg-xrandr xorg-xsetroot picom nitrogen f
 git clone https://aur.archlinux.org/yay.git
 
 thunderbird brave-bin soulseekqt bluefish filezilla
+
+UUID=14c45004-a863-4b11-a178-eb8d398ca4f4 /media/extra ext4 defaults,noatime 0 2
