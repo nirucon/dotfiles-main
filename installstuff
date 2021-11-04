@@ -4,6 +4,8 @@ sudo pacman -S xorg-server xorg-xinit xorg-xrandr xorg-xsetroot picom nitrogen f
 
 ufw gufw openssh
 
+pfetch
+
 git clone https://aur.archlinux.org/yay.git
 
 thunderbird brave-bin soulseekqt bluefish filezilla
