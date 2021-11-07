@@ -6,6 +6,8 @@ ufw gufw openssh
 
 pfetch
 
+gimp scripts
+
 git clone https://aur.archlinux.org/yay.git
 
 thunderbird brave-bin soulseekqt bluefish filezilla
