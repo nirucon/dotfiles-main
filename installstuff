@@ -2,7 +2,7 @@
 
 sudo pacman -S xorg-server xorg-xinit xorg-xrandr xorg-xsetroot picom nitrogen fff cmus mpv scrot slock lxappearance arc-gtk-theme arc-icon-theme pcmanfm pass gnupg arandr
 
-ufw gufw openssh
+ufw gufw openssh qimgv sxiv
 
 pfetch
 
