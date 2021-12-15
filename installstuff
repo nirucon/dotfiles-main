@@ -2,7 +2,7 @@
 
 sudo pacman -S
 xorg-server xorg-xinit xorg-xrandr xorg-xsetroot picom nitrogen cmus mpv scrot slock
-ufw gufw openssh thunderbird bluefish filezilla fff
+ufw gufw openssh thunderbird bluefish filezilla fff gimp
 lxappearance arc-gtk-theme arc-icon-themepcmanfm pass gnupg arandr
 
 yay -S annotator qimgv sxiv nerd-fonts-ubuntu-mono lsd soulseekqt brave-bin
