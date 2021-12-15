@@ -1,8 +1,11 @@
 #temp tower
 
-sudo pacman -S xorg-server xorg-xinit xorg-xrandr xorg-xsetroot picom nitrogen fff cmus mpv scrot slock lxappearance arc-gtk-theme arc-icon-theme pcmanfm pass gnupg arandr
+sudo pacman -S
+xorg-server xorg-xinit xorg-xrandr xorg-xsetroot picom nitrogen cmus mpv scrot slock
+ufw gufw openssh thunderbird bluefish filezilla fff
+lxappearance arc-gtk-theme arc-icon-themepcmanfm pass gnupg arandr
 
-ufw gufw openssh qimgv sxiv nerd-fonts-ubuntu-mono
+yay -S annotator qimgv sxiv nerd-fonts-ubuntu-mono lsd soulseekqt brave-bin
 
 pfetch
 wget https://github.com/dylanaraps/pfetch/archive/master.zip
@@ -15,7 +18,8 @@ PF_INFO="ascii title os host kernel uptime" /usr/local/bin/pfetch
 gimp scripts
 
 git clone https://aur.archlinux.org/yay.git
+makepkg -si
 
-thunderbird brave-bin soulseekqt bluefish filezilla
+
 
 UUID=14c45004-a863-4b11-a178-eb8d398ca4f4 /media/extra ext4 defaults,noatime 0 2
