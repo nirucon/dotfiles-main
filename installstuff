@@ -21,5 +21,6 @@ git clone https://aur.archlinux.org/yay.git
 makepkg -si
 
 
-
 UUID=14c45004-a863-4b11-a178-eb8d398ca4f4 /media/extra ext4 defaults,noatime 0 2
+UUID=08c2ecbb-28a6-4cb3-b2b8-8e7ad554bb4f /media/backup btrfs defaults,noatime 0 2
+UUID=31614e00-2e20-46b1-ace8-2e3deb81b1ba /media/1tb btrfs defaults,noatime 0 2
