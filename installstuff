@@ -5,21 +5,7 @@ xorg-server xorg-xinit xorg-xrandr xorg-xsetroot picom nitrogen cmus mpv scrot s
 ufw gufw openssh thunderbird bluefish filezilla fff gimp
 lxappearance arc-gtk-theme arc-icon-themepcmanfm pass gnupg arandr
 
-yay -S annotator qimgv sxiv nerd-fonts-ubuntu-mono lsd soulseekqt brave-bin
-
-pfetch
-wget https://github.com/dylanaraps/pfetch/archive/master.zip
-unzip master.zip
-sudo install pfetch-master/pfetch /usr/local/bin/
-ls -l /usr/local/bin/pfetch
--
-PF_INFO="ascii title os host kernel uptime" /usr/local/bin/pfetch
-
-gimp scripts
-
-git clone https://aur.archlinux.org/yay.git
-makepkg -si
-
+yay -S annotator qimgv sxiv nerd-fonts-ubuntu-mono soulseekqt brave-bin cava
 
 UUID=14c45004-a863-4b11-a178-eb8d398ca4f4 /media/extra ext4 defaults,noatime 0 2
 UUID=08c2ecbb-28a6-4cb3-b2b8-8e7ad554bb4f /media/backup btrfs defaults,noatime 0 2
